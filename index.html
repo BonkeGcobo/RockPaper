@@ -1,1 +1,45 @@
+<!Doctype html>
 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Rock Paper Scissors</title>
+</head>
+<body>
+    <div class="heading">
+      <h1>Rock Paper Scissors</h1>
+    </div>
+
+    <div class="gameSec">
+        <h3>Win Five Rounds to be the Victor</h3>
+    </div>
+
+    <div class="scoreSect">
+        <p class="Player">Player</p>
+        <p id="PlayeScore">0</p>
+        <p class="divider">-</p>
+        <p id="CompScore">0</p>
+        <p class="Computer">Computer</p>
+    </div>
+
+    <div class="handIcons">
+      <div><button id="hand"><img src="hand.png" style="width: 24px;"></button></div>
+      <div><button id="scissors"><img src="scissors.png" style="width: 24px;"></button></div>
+      <div><button id="paper"><img src="white.png" style="width: 24px;"></button></div>
+    </div>
+
+
+
+    <div class="game-message">
+      <p id="gameMsg"></p>
+    </div>
+
+    <div id="msg">
+      <p id="win-msg"></p>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
